@@ -1,0 +1,9 @@
+{
+  "appId": "com.pollo.lienzodeltiempo",
+  "appName": "El lienzo del tiempo",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  }
+}

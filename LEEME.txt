@@ -1,0 +1,18 @@
+INSTRUCCIONES PARA COMPILAR LA APK DE "EL LIENZO DEL TIEMPO"
+
+El archivo ZIP contiene la estructura lista para generar la APK por cualquiera de estas 3 vías:
+
+OPCIÓN 1: Android Studio (Proyecto nativo WebView ya configurado)
+1. Abre Android Studio y selecciona "Open" -> elige la carpeta `android`.
+2. Espera a que Gradle sincronice.
+3. Ve al menú superior: Build > Build Bundle(s) / APK(s) > Build APK(s).
+4. La aplicación ya está configurada en orientación horizontal (sensorLandscape) y pantalla completa inmersiva.
+
+OPCIÓN 2: Capacitor (Node.js)
+1. Abre una terminal en la carpeta raíz `el-lienzo-del-tiempo-apk`.
+2. Ejecuta: npm install
+3. Ejecuta: npx cap add android && npx cap sync
+4. Abre con: npx cap open android y compila la APK.
+
+OPCIÓN 3: Herramientas rápidas (Website 2 APK Builder / Cordova / VoltBuilder)
+- Usa la carpeta `www` (que contiene `index.html`) junto con `config.xml`.

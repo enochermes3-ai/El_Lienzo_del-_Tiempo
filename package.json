@@ -1,0 +1,16 @@
+{
+  "name": "el-lienzo-del-tiempo",
+  "version": "1.0.0",
+  "description": "El lienzo del tiempo - Videojuego",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
